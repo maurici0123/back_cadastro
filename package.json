@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "build": "npx prisma generate",
@@ -11,18 +12,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "@prisma/client": "6.19",
-    "cors": "^2.8.5",
-    "express": "^5.2.1" ,
-    "prisma": "6.19"
+    "prisma": "6.19",
+    "express": "^5.2.1",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "@types/node": "^25.0.3",
     "dotenv": "^17.2.3"
   },
   "engines": {
-  "node": "18.x"
-}
+    "node": "18.x"
+  }
 }
